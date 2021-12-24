@@ -4,7 +4,11 @@
 
 class Game {
 public:
+    Game();
     void play();
+    bool pieceHasBottomedOut();
+    Piece* generateRandomPiece();
+
 
 private:
     Board gameBoard;
